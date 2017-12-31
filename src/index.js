@@ -31,7 +31,7 @@ function particleExplosion(pointer){
 }
 
 function Text() {
-    var hnytext = game.add.text(150, 250, 'Happy New Year 2017', {
+    var hnytext = game.add.text(150, 250, 'Happy New Year 2018', {
         fontSize: '50px',
         fill: current
     })
