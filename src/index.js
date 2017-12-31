@@ -14,7 +14,7 @@ let mainState = {
     create(){
         game.physics.startSystem(Phaser.Physics.ARCADE)
         game.stage.backgroundColor = '#FFFFF'
-        emitter = game.add.emitter(0,0,250)
+        emitter = game.add.emitter(0,0,7000)
         emitter.makeParticles('firework')
         emitter.gravity = 150
         game.input.onDown.add(particleExplosion,this)
